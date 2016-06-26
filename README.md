@@ -64,6 +64,8 @@ To install, enter the following command in Terminal.
 
 ##Atom
 
+Get Atom editor [here](https://atom.io/)
+
 ##Node.js
 
 ##Bower
