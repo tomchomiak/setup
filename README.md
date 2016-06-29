@@ -99,6 +99,8 @@ nvm install 6
 ```
 You will have to `npm install -g` your global dependencies for each version.
 
+Switch of node version with `nvm use 0.10`
+
 
 ##Bower
 
