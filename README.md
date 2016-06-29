@@ -69,6 +69,13 @@ Get Atom editor [here](https://atom.io/)
 
 ##Node.js
 
+Install Node.js using NVM.
+
+```bash
+brew update
+brew install nvm
+```
+
 ##Bower
 
 ##Gulp
