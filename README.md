@@ -74,6 +74,15 @@ Install Node.js using NVM.
 ```bash
 brew update
 brew install nvm
+mkdir ~/.nvm
+nano ~/.bash_profile
+```
+
+In your .bash_profile file, add the following:
+
+```bash
+export NVM_DIR=~/.nvm
+source $(brew --prefix nvm)/nvm.sh
 ```
 
 ##Bower
