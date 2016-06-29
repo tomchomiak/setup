@@ -97,6 +97,12 @@ To download, compile, and install the latest v6.x.x release of node, do this:
 ```bash
 nvm install 6
 ```
+to show current node version
+
+```bash
+node --version
+```
+
 You will have to `npm install -g` your global dependencies for each version.
 
 Switch of node version with `nvm use 0.10`
