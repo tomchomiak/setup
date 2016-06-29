@@ -85,6 +85,21 @@ export NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 ```
 
+activate nvm
+
+```bash
+source ~/.bash_profile
+echo $NVM_DIR
+```
+
+To download, compile, and install the latest v6.x.x release of node, do this:
+
+```bash
+nvm install 6
+```
+You will have to `npm install -g` your global dependencies for each version.
+
+
 ##Bower
 
 ##Gulp
