@@ -114,6 +114,37 @@ nvm use 0.10
 
 ##Bower
 
+Install bower globally
+
+```bash
+npm install -g bower
+
+```
+
+To install packages and save to bower.json
+
+```bash
+bower install <package> --save
+```
+To uninstall unused packages
+
+```bash
+bower prune
+```
+
+To update bower package
+
+```bash
+bower update <name> [<name> ..] [<options>]
+```
+
+update options
+
+* -F, --force-latest: Force latest version on conflict
+* -S, --save: Update dependencies in bower.json
+* -D, --save-dev: Update devDependencies in bower.json
+
+
 ##Gulp
 
 ##MongoDB
