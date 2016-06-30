@@ -111,6 +111,12 @@ Switch of node version like so
 nvm use 0.10
 ```
 
+##PM2
+To install pm2
+
+```bash
+npm install pm2 -g
+```
 
 ##Bower
 
