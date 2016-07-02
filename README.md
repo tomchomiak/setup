@@ -195,6 +195,20 @@ MongoDB logs will be here `/usr/local/var/log/mongodb/mongo.log`
 
 And default db path will be here `/usr/local/var/mongodb`
 
+You can run MongoDB process manually like so.
+
+```bash
+mongod --config /usr/local/etc/mongod.conf
+```
+Its best to have the MongoDB process run in the background and persist reboots.
+
+```bash
+//Start mongod process on session start after reboot
+ln -sfv /usr/local/opt/mongodb/*.plist ~/Library/LaunchAgents
+
+//Start MongoDB in background and keep it running
+launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist
+```
 
 
 ##MongoHub
