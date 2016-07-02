@@ -9,7 +9,7 @@ Recommended setup for Node.js Developer on Mac
 - [Node.js](#nodejs)
 - [Bower](#bower)
 - [Gulp](#gulp)
-- [MongoDB](#mongoDB)
+- [MongoDB](#mongodb)
 - [MongoHub](#mongoHub)
 - [Redis](#redis)
 - [Postman](#postman)
@@ -179,6 +179,13 @@ npm install --save-dev gulp
 
 
 ##MongoDB
+
+Use homebrew to install MongoDB.
+
+```bash
+brew update
+brew install mongodb
+```
 
 ##MongoHub
 
