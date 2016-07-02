@@ -1,17 +1,20 @@
 # Developer Setup
 
+Recommended setup for Node.js Developer on Mac
 
-- [Git](#Git)
-- [SSH](#SSH)
-- [Hombrew](#Homebrew)
-- [Atom](#Atom)
-- [Node.js](#Node.js)
-- [Bower](#Bower)
-- [Gulp](#Gulp)
-- [MongoDB](#MongoDB)
-- [MongoHub](#MongoHub)
-- [Redis](#Redis)
-- [Postman](#Postman)
+- [Git](#git)
+- [SSH](#ssh)
+- [Hombrew](#homebrew)
+- [Atom](#atom)
+- [Node.js](#node.js)
+- [Bower](#bower)
+- [Gulp](#gulp)
+- [MongoDB](#mongoDB)
+- [MongoHub](#mongoHub)
+- [Redis](#redis)
+- [Postman](#postman)
+
+
 
 ##Git
 
