@@ -6,7 +6,7 @@ Recommended setup for Node.js Developer on Mac
 - [SSH](#ssh)
 - [Hombrew](#homebrew)
 - [Atom](#atom)
-- [Node.js](#node.js)
+- [Node.js](#nodejs)
 - [Bower](#bower)
 - [Gulp](#gulp)
 - [MongoDB](#mongoDB)
