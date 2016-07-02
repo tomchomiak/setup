@@ -156,6 +156,14 @@ update options
 
 ##Gulp
 
+Gulp is a popular, streaming build system. Install Gulp globally
+
+```bash
+npm install --global gulp-cli
+```
+
+If you have an old version of Gulp already installed then you will need to uninstall it before continuing `npm rm --global gulp`
+
 ##MongoDB
 
 ##MongoHub
