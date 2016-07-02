@@ -156,7 +156,7 @@ update options
 
 ##Gulp
 
-Gulp is a popular, streaming build system. Install Gulp globally
+Gulp is a popular, streaming build system. You will want to install Gulp globally
 
 ```bash
 npm install --global gulp-cli
