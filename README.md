@@ -13,8 +13,6 @@ Recommended setup for Node.js Developer on Mac
 - [MongoHub](#mongoHub)
 - [Redis](#redis)
 - [Postman](#postman)
-- [Express](#express)
-- [Restify](#restify)
 
 
 
