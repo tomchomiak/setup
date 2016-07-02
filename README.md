@@ -164,6 +164,19 @@ npm install --global gulp-cli
 
 If you have an old version of Gulp already installed then you will need to uninstall it before continuing `npm rm --global gulp`
 
+When using Gulp in your projects,
+
+```bash
+npm init
+```
+
+make sure to install Gulp as a dev-dependency
+
+```bash
+npm install --save-dev gulp
+```
+
+
 ##MongoDB
 
 ##MongoHub
