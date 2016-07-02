@@ -187,6 +187,10 @@ brew update
 brew install mongodb
 ```
 
+This will install MongoDB in `/usr/local/Cellar/mongodb/`
+
+MongoDB configuration file should be located here `/usr/local/etc/mongod.conf`
+
 ##MongoHub
 
 ##Redis
