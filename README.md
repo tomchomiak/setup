@@ -7,12 +7,14 @@ Recommended setup for Node.js Developer on Mac
 - [Hombrew](#homebrew)
 - [Atom](#atom)
 - [Node.js](#nodejs)
+- [PM2](#pm2)
 - [Bower](#bower)
 - [Gulp](#gulp)
 - [MongoDB](#mongodb)
 - [MongoHub](#mongoHub)
 - [Redis](#redis)
 - [Postman](#postman)
+- [VirtualBox](#virtualbox)
 
 
 
