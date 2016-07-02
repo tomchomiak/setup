@@ -114,6 +114,12 @@ Switch of node version like so
 nvm use 0.10
 ```
 
+To show node versions currently installed with nvm
+
+```bash
+nvm ls
+```
+
 ##PM2
 To install pm2
 
