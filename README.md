@@ -191,6 +191,12 @@ This will install MongoDB in `/usr/local/Cellar/mongodb/`
 
 MongoDB configuration file should be located here `/usr/local/etc/mongod.conf`
 
+MongoDB logs will be here `/usr/local/var/log/mongodb/mongo.log`
+
+And default db path will be here `/usr/local/var/mongodb`
+
+
+
 ##MongoHub
 
 ##Redis
