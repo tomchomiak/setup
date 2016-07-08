@@ -217,6 +217,8 @@ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist
 
 ##MongoHub
 
+Get MongoHub [here](https://github.com/jeromelebel/MongoHub-Mac)
+
 ##Redis
 
 Install redis using homebrew
