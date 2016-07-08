@@ -11,7 +11,7 @@ Recommended setup for Node.js Developer on Mac
 - [Bower](#bower)
 - [Gulp](#gulp)
 - [MongoDB](#mongodb)
-- [MongoHub](#mongoHub)
+- [MongoHub](#mongohub)
 - [Redis](#redis)
 - [Postman](#postman)
 - [VirtualBox](#virtualbox)
