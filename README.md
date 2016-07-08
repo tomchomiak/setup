@@ -123,6 +123,8 @@ nvm ls
 ```
 
 ##PM2
+PM2 is a production process manager for Node.js applications with a built-in load balancer. PM2 gives you an accessible and comprehensive toolkit to deploy and manage your Node.js applications in a production environment.
+
 To install pm2
 
 ```bash
@@ -216,6 +218,27 @@ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mongodb.plist
 ##MongoHub
 
 ##Redis
+
+Install redis using homebrew
+
+```bash
+brew update
+brew install redis
+```
+
+Default redis configuration file will be located here `/usr/local/etc/redis.conf`
+
+You can start redis process like so
+
+redis-server /usr/local/etc/redis.conf
+
+Its best to have the redis process run in the background and persist reboots.
+
+```bash
+ln -sfv /usr/local/opt/redis/*.plist ~/Library/LaunchAgents
+launchctl load ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
+```
+
 
 ##Postman
 
