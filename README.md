@@ -13,6 +13,7 @@ Recommended setup for Node.js Developer on Mac
 - [MongoDB](#mongodb)
 - [MongoHub](#mongohub)
 - [Redis](#redis)
+- [Ruby](#ruby)
 - [Postman](#postman)
 - [VirtualBox](#virtualbox)
 
@@ -240,8 +241,34 @@ Its best to have the redis process run in the background and persist reboots.
 ln -sfv /usr/local/opt/redis/*.plist ~/Library/LaunchAgents
 launchctl load ~/Library/LaunchAgents/homebrew.mxcl.redis.plist
 ```
+##Ruby
 
+Install a Ruby version manager
 
+```bash
+brew update
+brew install rbenv ruby-build
+```
+
+Add rbenv to bash so it loads when you open Terminal
+
+```bash
+echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile
+source ~/.bash_profile
+```
+Install Ruby
+
+```bash
+rbenv install 2.3.1
+rbenv global 2.3.1
+ruby -v
+```
+
+Install Ruby bundler
+
+```bash
+gem install bundler
+```
 ##Postman
 
 Get postman [here](https://www.getpostman.com/)
