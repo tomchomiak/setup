@@ -44,6 +44,28 @@ SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8 (RSA)
 SHA256:br9IjFspm1vxR3iA35FWE+4VTyz1hYVLIE2t1/CeyWQ (DSA)
 ```
 
+Add git branch name to Terminal
+
+```bash
+nano ~/.bash_profile
+```
+
+Add following
+
+```bash
+parse_git_branch() {
+     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+export PS1="\u@\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
+```
+
+Explanatio of above Regular Expression
+
+* \u@\h \[\033[32m\] - user, host name and its displaying color
+* \w\[\033[33m\] - current working directory and its displaying color
+* \$(parse_git_branch)\[\033[00m\] - git branch name and its displaying color
+
+
 ##SSH
 
 To generate new key, paste following command in Terminal. Make sure to add a passphrase.
